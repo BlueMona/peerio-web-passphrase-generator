@@ -1,0 +1,64 @@
+{
+  "name": "peerio-web-passphrase-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PeerioTechnologies/peerio-web-passphrase-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PeerioTechnologies/peerio-web-passphrase-generator/issues"
+  },
+  "homepage": "https://github.com/PeerioTechnologies/peerio-web-passphrase-generator#readme",
+  "scripts": {
+    "validate": "npm-run-all --parallel validate-webpack:* lint",
+    "validate-webpack:dev": "webpack-validator webpack.config.js --env.dev",
+    "validate-webpack:prod": "webpack-validator webpack.config.js --env.prod",
+    "clean-dist": "rimraf dist && mkdir dist",
+    "copy-files": "cp -pfR src/img dist/img && cp -pfR src/dict dist/dict",
+    "clean-and-copy": "npm run clean-dist && npm run copy-files",
+    "prestart": "npm run clean-and-copy",
+    "start": "webpack-dev-server --env.dev --content-base dist --open",
+    "prebuild": "npm run clean-and-copy",
+    "prebuild:prod": "npm run clean-and-copy",
+    "build": "webpack --env.dev",
+    "build:prod": "webpack --env.prod -p",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0"
+  },
+  "devDependencies": {
+    "babel": "6.5.2",
+    "babel-core": "6.9.1",
+    "babel-eslint": "6.0.4",
+    "babel-loader": "6.2.4",
+    "babel-preset-es2015-webpack": "6.4.1",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-2": "6.5.0",
+    "css-loader": "0.23.1",
+    "eslint": "2.13.0",
+    "eslint-import-resolver-webpack": "^0.3.0",
+    "eslint-loader": "1.3.0",
+    "eslint-plugin-import": "^1.8.1",
+    "eslint-plugin-react": "^5.2.2",
+    "ghooks": "1.2.4",
+    "html-webpack-plugin": "https://github.com/ampedandwired/html-webpack-plugin",
+    "json-loader": "^0.5.4",
+    "node-sass": "^3.7.0",
+    "npm-run-all": "2.2.0",
+    "opt-cli": "1.4.2",
+    "rimraf": "2.5.2",
+    "sass-loader": "^3.2.0",
+    "style-loader": "0.13.1",
+    "webpack": "^2.1.0-beta.13",
+    "webpack-config-loader": "^0.1.0",
+    "webpack-dev-server": "^2.1.0-beta.0",
+    "webpack-validator": "2.1.3"
+  }
+}
