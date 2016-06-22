@@ -1,5 +1,6 @@
 'use strict';
 
+import 'peerio-web-styling';
 import './styles/main.scss';
 
 import React from 'react';

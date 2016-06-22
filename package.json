@@ -30,6 +30,7 @@
   },
   "dependencies": {
     "bluebird": "^3.4.1",
+    "peerio-web-styling": "git+https://github.com/PeerioTechnologies/peerio-web-styling.git",
     "react": "^15.1.0",
     "react-dom": "^15.1.0"
   },
@@ -49,6 +50,7 @@
     "eslint-plugin-react": "^5.2.2",
     "ghooks": "1.2.4",
     "html-webpack-plugin": "https://github.com/ampedandwired/html-webpack-plugin",
+    "import-glob-loader": "^1.1.0",
     "json-loader": "^0.5.4",
     "node-sass": "^3.7.0",
     "npm-run-all": "2.2.0",

@@ -40,7 +40,7 @@ module.exports = env => {
                 {test: /\.jsx?$/, loader: 'babel!eslint', exclude: /node_modules/},
                 {test: /\.json$/, loader: 'json'},
                 {test: /\.css$/, loader: 'style!css'},
-                {test: /\.scss$/, loader: 'style!css!sass'}
+                {test: /\.scss$/, loader: 'style!css!sass!import-glob'}
             ]
         },
         plugins: [
