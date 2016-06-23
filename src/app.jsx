@@ -7,7 +7,7 @@ import React from 'react';
 import { render } from 'react-dom';
 import Index from './components/Index.jsx';
 
-let div = document.createElement('div');
-document.body.appendChild(div);
 
-render(<Index />, div);
+let app = document.getElementById('app');
+
+render(<Index />, app);

@@ -31,11 +31,11 @@ class IndexComponent extends Component {
     }
 
     render() {
-        var localeNodes = Object.keys(this.dictLocales).map(l => <option value={l}>{this.dictLocales[l]}</option>);
+        var localeNodes = Object.keys(this.dictLocales).map(l => <option key={this.dictLocales[l]} value={l}>{this.dictLocales[l]}</option>);
         return (
-            <div className="flex-col flex-align-center flex-justify-center" style={{'height': '100vh'}}>
+            <div key={'passphrase-generator'} className="flex-col flex-align-center">
 
-                <h1>
+                <h1 className="text-center">
                     {this.state.passphrase}
                 </h1>
                 <div className="flex-row">
