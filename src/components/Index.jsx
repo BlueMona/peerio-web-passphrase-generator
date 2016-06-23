@@ -33,15 +33,15 @@ class IndexComponent extends Component {
     render() {
         var localeNodes = Object.keys(this.dictLocales).map(l => <option value={l}>{this.dictLocales[l]}</option>);
         return (
-            <fieldset key={'signup-step-1'}>
+            <div className="flex-col flex-align-center flex-justify-center" style={{'height': '100vh'}}>
 
-                <p className="txt-lrg">
+                <h1>
                     {this.state.passphrase}
-                </p>
+                </h1>
                 <div className="flex-row">
-                    <div className="input-group flex-grow-1">
+                    <div className="input-group">
                         <label htmlFor="lang">Language</label>
-                        <select ref="lang" id="lang" onChange={this.generatePassphrase} value='en'>
+                        <select ref="lang" id="lang" onChange={this.generatePassphrase} value='en' className="flex-row flex-align-center">
                             {localeNodes}
                         </select>
 
@@ -49,7 +49,7 @@ class IndexComponent extends Component {
 
                     <div className="input-group">
                         <label htmlFor="wordCount">Length</label>
-                        <select ref="wordCount" id="wordCount" onChange={this.generatePassphrase}>
+                        <select ref="wordCount" id="wordCount" onChange={this.generatePassphrase}  className="flex-row flex-align-center">
                             <option value="5">5</option>
                             <option value="6">6</option>
                             <option value="8">7</option>
@@ -58,11 +58,12 @@ class IndexComponent extends Component {
                             <option value="10">10</option>
                         </select>
                     </div>
+                    <div className="flex-col flex-justify-end">
+                        <div className="button base-margin lr" onClick={this.generatePassphrase}>Generate</div>
+                    </div>
                 </div>
-                <div className="buttons">
-                    <div className="btn-primary" onClick={this.generatePassphrase}>Generate</div>
-                </div>
-            </fieldset>);
+
+            </div>);
     }
 
 }
