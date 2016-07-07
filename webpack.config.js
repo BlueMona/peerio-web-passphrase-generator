@@ -1,6 +1,7 @@
 const webpack = require('webpack');
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = env => {
 
@@ -25,7 +26,8 @@ module.exports = env => {
     return {
         entry: {
             app: './app.jsx',
-            vendor: ['react', 'react-dom']
+            vendor: ['react', 'react-dom'],
+            style: './styles/main.scss'
         },
         output: {
             filename: env.prod ? 'bundle.[name].[hash].min.js' : 'bundle.[name].js',
@@ -40,10 +42,11 @@ module.exports = env => {
                 {test: /\.jsx?$/, loader: 'babel!eslint', exclude: /node_modules/},
                 {test: /\.json$/, loader: 'json'},
                 {test: /\.css$/, loader: 'style!css'},
-                {test: /\.scss$/, loader: 'style!css!sass!import-glob'}
+                {test: /\.scss$/, loader: ExtractTextPlugin.extract('style-loader', 'css!sass')}
             ]
         },
         plugins: [
+            new ExtractTextPlugin("style.[hash].css", {allChunks: false}),
             new HtmlWebpackPlugin({
                 template: './index.html', // Load a custom template (ejs by default but can be changed)
                 inject: 'head' // Inject all scripts into the body (this is the default so you can skip it)
