@@ -46,7 +46,7 @@ module.exports = env => {
         plugins: [
             new HtmlWebpackPlugin({
                 template: './index.html', // Load a custom template (ejs by default but can be changed)
-                inject: 'body' // Inject all scripts into the body (this is the default so you can skip it)
+                inject: 'head' // Inject all scripts into the body (this is the default so you can skip it)
             }),
             unlessTest(new webpack.optimize.CommonsChunkPlugin({name: 'vendor'})),
             new webpack.DefinePlugin({
