@@ -41,7 +41,7 @@ class IndexComponent extends Component {
                 <div className="flex-row">
                     <div className="input-group">
                         <label htmlFor="lang">Language</label>
-                        <select ref="lang" id="lang" onChange={this.generatePassphrase} value='en' className="flex-row flex-align-center">
+                        <select ref="lang" id="lang" onChange={this.generatePassphrase} defaultValue='en' className="flex-row flex-align-center">
                             {localeNodes}
                         </select>
 
