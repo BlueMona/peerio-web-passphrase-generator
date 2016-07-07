@@ -33,37 +33,40 @@ class IndexComponent extends Component {
     render() {
         var localeNodes = Object.keys(this.dictLocales).map(l => <option key={this.dictLocales[l]} value={l}>{this.dictLocales[l]}</option>);
         return (
-            <div key={'passphrase-generator'} className="flex-col flex-align-center">
+          <div className="content-section">
+              <div className="content-wrapper">
+                  <div key={'passphrase-generator'} className="flex-col flex-align-center content">
 
-                <h1 className="text-center">
-                    {this.state.passphrase}
-                </h1>
-                <div className="flex-row">
-                    <div className="input-group">
-                        <label htmlFor="lang">Language</label>
-                        <select ref="lang" id="lang" onChange={this.generatePassphrase} defaultValue='en' className="flex-row flex-align-center">
-                            {localeNodes}
-                        </select>
+                      <h1 className="text-center">
+                          {this.state.passphrase}
+                      </h1>
+                      <div className="flex-row">
+                          <div className="input-group">
+                              <label htmlFor="lang">Language</label>
+                              <select ref="lang" id="lang" onChange={this.generatePassphrase} defaultValue='en' className="flex-row flex-align-center">
+                                  {localeNodes}
+                              </select>
 
-                    </div>
+                          </div>
 
-                    <div className="input-group">
-                        <label htmlFor="wordCount">Length</label>
-                        <select ref="wordCount" id="wordCount" onChange={this.generatePassphrase}  className="flex-row flex-align-center">
-                            <option value="5">5</option>
-                            <option value="6">6</option>
-                            <option value="8">7</option>
-                            <option value="8">8</option>
-                            <option value="8">9</option>
-                            <option value="10">10</option>
-                        </select>
-                    </div>
-                    <div className="flex-col flex-justify-end">
-                        <div className="button base-margin lr" onClick={this.generatePassphrase}>Generate</div>
-                    </div>
+                          <div className="input-group">
+                              <label htmlFor="wordCount">Length</label>
+                              <select ref="wordCount" id="wordCount" onChange={this.generatePassphrase}  className="flex-row flex-align-center">
+                                  <option value="5">5</option>
+                                  <option value="6">6</option>
+                                  <option value="8">7</option>
+                                  <option value="8">8</option>
+                                  <option value="8">9</option>
+                                  <option value="10">10</option>
+                              </select>
+                          </div>
+                          <div className="flex-col flex-justify-end">
+                              <div className="button base-margin lr" onClick={this.generatePassphrase}>Generate</div>
+                          </div>
+                      </div>
+                  </div>
                 </div>
-
-            </div>);
+          </div>);
     }
 
 }
