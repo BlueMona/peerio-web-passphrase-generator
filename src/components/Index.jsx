@@ -56,7 +56,7 @@ class IndexComponent extends Component {
                                   <option value="6">6</option>
                                   <option value="8">7</option>
                                   <option value="8">8</option>
-                                  <option value="8">9</option>
+                                  <option value="9">9</option>
                                   <option value="10">10</option>
                               </select>
                           </div>
