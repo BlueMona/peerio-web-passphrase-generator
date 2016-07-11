@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 set -e
-npm install
 npm update
 GITSHA=$(git rev-parse HEAD)
 npm run build:prod

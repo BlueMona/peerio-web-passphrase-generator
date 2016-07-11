@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "bluebird": "^3.4.1",
-    "peerio-web-styling": "git+ssh://github.com/PeerioTechnologies/peerio-web-styling.git",
+    "peerio-web-styling": "github:PeerioTechnologies/peerio-web-styling",
     "react": "^15.1.0",
     "react-dom": "^15.1.0"
   },
