@@ -7672,9 +7672,7 @@ chopper
 pianga
 stecca
 salata
-daily
 annulla
-made
 vincolo
 para
 fiati
@@ -7698,8 +7696,7 @@ ricardo
 nettie
 sezioni
 ripresi
-pagani
-chips
+pagan
 andrè
 dovermi
 tap
@@ -8092,10 +8089,9 @@ mettevo
 puntino
 ghinee
 urgenti
-major
+maggiore
 appoggi
 ettore
-fona
 fluidi
 animati
 body
