@@ -17,7 +17,10 @@ class IndexComponent extends Component {
             'zh-CN': '汉语',
             'nb-NO': 'Norsk (Bokmål)',
             'tr': 'Türkçe',
-            'hu': 'Magyar'
+            'hu': 'Magyar',
+            'cs': 'Čeština',
+            'jp': '日本語',
+            'pt-BR':'Português (Brasileiro)'
         };
         this.generatePassphrase = this.generatePassphrase.bind(this);
     }
