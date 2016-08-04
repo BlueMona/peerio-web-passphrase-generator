@@ -37,6 +37,7 @@ class IndexComponent extends Component {
     render() {
         var localeNodes = Object.keys(this.dictLocales).map(l => <option key={this.dictLocales[l]} value={l}>{this.dictLocales[l]}</option>);
         return (
+          <div className="main">
           <div className="content-section">
               <div className="content-wrapper">
                   <div key={'passphrase-generator'} className="flex-responsive-row flex-align-baseline content">
@@ -45,7 +46,7 @@ class IndexComponent extends Component {
                               <div className="md-subhead">Your Passphrase</div>
                               {this.state.passphrase}
                           </h1>
-                          <div className="flex-row">
+                          <div className="flex-responsive-row">
                               <div className="input-group">
                                   <label htmlFor="lang">Language</label>
                                   <select ref="lang" id="lang" onChange={this.generatePassphrase} defaultValue='en' className="flex-row flex-align-center">
@@ -85,7 +86,43 @@ class IndexComponent extends Component {
                       </div>
                   </div>
                 </div>
-          </div>);
+          </div>
+          <footer className="main-footer flex-shrink-0">
+            <div className="content-wrapper">
+              <div className="footer-info">
+                <div className="flex-col">
+                  <a className="logo" target="_blank" href="http://www.peerio.com"></a>
+                </div>
+                <div className="flex-row flex-align-center">
+                  <div className="caption">
+                    <a href="mailto:press@peerio.com">Press</a> |
+                    <a href="https://github.com/PeerioTechnologies/peerio-documentation/blob/master/Terms_of_Use.md" target="_blank">Terms</a> |
+                    <a href="https://github.com/PeerioTechnologies/peerio-documentation/blob/master/Privacy_Policy.md" target="_blank">Privacy</a>
+                  </div>
+                  <ul className="social">
+                    <li>
+                      <a className="fa fa-facebook-official" href="https://www.facebook.com/peerioapp" target="_blank"></a>
+                    </li>
+                    <li>
+                      <a className="fa fa-twitter" href="https://twitter.com/peerio" target="_blank"></a>
+                    </li>
+                    <li>
+                      <a className="fa fa-github" href="https://github.com/PeerioTechnologies/peerio-web-passphrase-generator" target="_blank"></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div className="footer-info flex-align-center" style={{justifyContent: 'space-between'}}>
+                <div className="caption">
+                  &copy; <span data-year="currentYear"></span> Technologies Peerio Inc.
+                </div>
+                <div className="caption">
+                  Contact us on Peerio at username <strong>Peerio</strong>
+                </div>
+              </div>
+            </div>
+          </footer>
+        </div>);
     }
 
 }
