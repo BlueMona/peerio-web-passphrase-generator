@@ -42,11 +42,11 @@ module.exports = env => {
                 {test: /\.jsx?$/, loader: 'babel!eslint', exclude: /node_modules/},
                 {test: /\.json$/, loader: 'json'},
                 {test: /\.css$/, loader: 'style!css'},
-                {test: /\.scss$/, loader: ExtractTextPlugin.extract('style-loader', 'css!sass')}
+                {test: /\.scss$/, loader: ExtractTextPlugin.extract({fallbackLoader:'style-loader', loader: ['css','sass']})}
             ]
         },
         plugins: [
-            new ExtractTextPlugin("style.[hash].css", {allChunks: false}),
+            new ExtractTextPlugin({filename:'style.[hash].css', allChunks: false}),
             new HtmlWebpackPlugin({
                 template: './index.html', // Load a custom template (ejs by default but can be changed)
                 inject: 'head' // Inject all scripts into the body (this is the default so you can skip it)
