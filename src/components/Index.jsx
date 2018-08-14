@@ -117,7 +117,7 @@ class IndexComponent extends Component {
                   &copy; <span data-year="currentYear"></span> Technologies Peerio Inc.
                 </div>
                 <div className="caption">
-                  Contact us on Peerio at username <strong>Peerio</strong>
+                  Contact us on Peerio at username <strong>Feedback</strong>
                 </div>
               </div>
             </div>
