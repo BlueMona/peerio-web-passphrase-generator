@@ -74,7 +74,7 @@ class IndexComponent extends Component {
                       <div className="flex-col sidebar flex-shrink-0">
                           <div className="md-title ">Peerio Blog</div>
                           <p>
-                            <a href="https://blog.peerio.com/how-to-build-a-billion-dollar-password-3d92568d9277#.rc6neeebh">How to Build a Billion Dollar Password</a>
+                            <a href="https://www.peerio.com/blog/posts/how-to-build-a-billion-dollar-password-2018/">How to Build a Billion Dollar Password</a>
                             <div className="caption">The Beginner’s Guide to Passwords</div>
                           </p>
 
