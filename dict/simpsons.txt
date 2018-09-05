@@ -372,7 +372,6 @@ read
 trying
 buy
 already
-'em
 wife
 idea
 skinner
@@ -414,7 +413,6 @@ same
 true
 ned
 since
-'cause
 lady
 bring
 cut
@@ -931,7 +929,6 @@ seat
 prison
 burn
 gee
-l
 missed
 lou
 died
@@ -1131,7 +1128,6 @@ jerk
 nine
 loser
 busy
-&
 whistling
 winner
 captain
@@ -1189,7 +1185,6 @@ ticket
 congratulations
 joke
 fellow
-o/
 george
 paying
 fix
@@ -1298,12 +1293,10 @@ finished
 uncle
 famous
 closed
-o
 following
 shame
 plane
 hug
-nothin'
 bible
 pal
 naked
@@ -1322,11 +1315,9 @@ tour
 cheap
 rid
 dancing
-goin'
 pool
 completely
 magazine
-''
 precious
 kissing
 oil
@@ -1403,7 +1394,6 @@ danger
 button
 games
 tie
-'
 ran
 expect
 smile
@@ -1416,7 +1406,6 @@ season
 heads
 toy
 leader
-b
 possibly
 ourselves
 beauty
@@ -1456,14 +1445,12 @@ goodness
 appreciate
 hibbert
 common
-¶
 media
 america's
 bread
 yellow
 code
 settle
-doin'
 flying
 leg
 da
@@ -1638,7 +1625,6 @@ capital
 sexy
 insurance
 finger
-k
 loving
 spare
 empty
@@ -1654,7 +1640,6 @@ dry
 freak
 guest
 pony
-'bout
 brown
 lazy
 score
@@ -1712,7 +1697,6 @@ plastic
 everything's
 ding
 track
-d
 arrest
 brings
 darn
@@ -1730,7 +1714,6 @@ sergeant
 held
 moved
 whee
-j
 children's
 seriously
 electric
@@ -1759,7 +1742,6 @@ imagine
 friday
 trapped
 tax
-Â¶
 son's
 bringing
 electricity
@@ -1803,7 +1785,6 @@ lovejoy
 mom's
 ghost
 panic
-gettin'
 sigh
 blues
 religion
@@ -1819,7 +1800,6 @@ south
 shopping
 booze
 explosion
-s
 thoughts
 desk
 smoking
@@ -1858,7 +1838,6 @@ cook
 something's
 success
 difference
-''i
 expensive
 pure
 figured
@@ -1970,7 +1949,6 @@ brothers
 inspector
 england
 forward
-c
 cleaning
 map
 spy
@@ -1990,7 +1968,6 @@ reward
 teachers
 scare
 entertainment
-wwwopensubtitlesorg
 yourselves
 anniversary
 prepared
@@ -2022,8 +1999,6 @@ answers
 pipe
 bullies
 thee
-you|
-lookin'
 blimp
 cookie
 costume
@@ -2032,7 +2007,6 @@ pardon
 manager
 blew
 robots
-i-i
 tub
 trade
 memory
@@ -2110,7 +2084,6 @@ wheels
 express
 decent
 eve
-talkin'
 slurping
 bust
 hotel
@@ -2165,7 +2138,6 @@ awfully
 emergency
 draw
 straining
-m
 grandma
 fifth
 german
@@ -2299,14 +2271,11 @@ forced
 hilarious
 drove
 lemonade
-e
 bald
-comin'
 budget
 sniffs
 players
 screwed
-r
 concert
 flowers
 united
@@ -2367,7 +2336,6 @@ somebody's
 talked
 ashamed
 bow
-homer|
 surgery
 subtitles
 richard
@@ -2412,7 +2380,6 @@ bloody
 copy
 burglar
 romance
-somethin'
 setting
 view
 whooping
@@ -2515,7 +2482,6 @@ groundskeeper
 holiday
 folk
 squeeze
-f
 barn
 concerned
 vehicle
@@ -2567,7 +2533,6 @@ fence
 gentle
 downtown
 grumbles
-ol'
 nick
 junior
 shoo
@@ -2635,12 +2600,10 @@ hated
 defense
 strawberry
 hail
-''the
 bubble
 musical
 position
 friendly
-'tis
 dish
 impressed
 religious
@@ -2705,7 +2668,6 @@ ended
 style
 market
 loose
-burns'
 results
 pro
 electrical
@@ -2788,7 +2750,6 @@ bright
 familiar
 opinion
 demand
-y
 tim
 fireworks
 wire
@@ -2832,7 +2793,6 @@ gray
 received
 italian
 cancel
-nothing's
 patch
 wherever
 corporation
@@ -2841,9 +2801,7 @@ rabbit
 announce
 jewish
 stuffed
-g
 steel
-it|
 register
 permission
 debt
@@ -2969,7 +2927,6 @@ witness
 cocktail
 daughter's
 microwave
-man|
 gentleman
 sweat
 stanley
@@ -2992,10 +2949,8 @@ ohhh
 boom
 contract
 equipment
-p
 performance
 landing
-x
 buttons
 riot
 began
@@ -3093,7 +3048,6 @@ deliver
 edison
 town's
 legend
-h
 daily
 effects
 range
@@ -3160,7 +3114,6 @@ per
 chirping
 bravo
 international
-t
 shary
 sensitive
 passes
@@ -3202,7 +3155,6 @@ frame
 commit
 thomas
 nowhere
-'t
 dolphins
 orders
 claus
@@ -3225,7 +3177,6 @@ cletus
 selfish
 web
 rag
-job22
 brazil
 ceiling
 wallet
@@ -3261,7 +3212,6 @@ pit
 noah
 menu
 pulling
-kids'
 amusement
 pencil
 alaska
@@ -3321,7 +3271,6 @@ marvelous
 create
 spin
 ms
-dad|
 frink
 majesty
 recycling
@@ -3338,7 +3287,6 @@ bedtime
 beast
 sharp
 hugh
-'60s
 creative
 sink
 southern
@@ -3495,7 +3443,6 @@ collect
 horror
 monroe
 parts
-me|
 robert
 echoing
 needle
@@ -3550,7 +3497,6 @@ mindy
 wig
 thief
 stroke
-'n'
 trophy
 pounding
 purse
@@ -3632,7 +3578,6 @@ pageant
 relief
 loyal
 chili
-not|
 exact
 rabbi
 knee
@@ -3652,7 +3597,6 @@ bullets
 pointing
 bikes
 swallowed
-sir|
 warming
 forbidden
 ba-ba
@@ -3687,7 +3631,6 @@ section
 authority
 lance
 coincidence
-{yi}singing
 pages
 eclipse
 scores
@@ -3831,7 +3774,6 @@ commissioner
 captured
 angrily
 ogdenville
--g
 teacher's
 joint
 tapping
@@ -3857,7 +3799,6 @@ jessica
 california
 arranged
 towels
-bart|
 writer
 script
 softly
@@ -3879,7 +3820,6 @@ explanation
 trumpets
 oughta
 stab
-girls'
 vodka
 expected
 groin
@@ -3976,7 +3916,6 @@ erotic
 shown
 dinosaurs
 eventually
-flanders'
 elves
 prohibition
 suffer
@@ -4076,7 +4015,6 @@ perfume
 soldier
 privacy
 holes
-off|
 batman
 sneaking
 jelly
@@ -4124,18 +4062,15 @@ broadway
 melody
 scheme
 wisdom
-here|
 flame
 permanent
 era
 hunk
 industry
-workin'
 cured
 y'ello
 blessed
 bobo
-freakin'
 zap
 producers
 replacement
@@ -4320,11 +4255,9 @@ terrific
 classroom
 rv
 phones
-mom|
 coolest
 avenge
 studies
-v
 rack
 diaper
 wally
@@ -4367,7 +4300,6 @@ et
 ordinary
 walt
 fred
-what|
 thuds
 shark
 passing
@@ -4546,7 +4478,6 @@ units
 tuna
 violin
 coffin
-right|
 self-esteem
 pipes
 carrot
@@ -4557,7 +4488,6 @@ wrestling
 july
 ungrateful
 hippies
-yeah|
 relieved
 starving
 location
@@ -4627,7 +4557,6 @@ safer
 elderly
 worries
 crashes
-marge|
 criminals
 jewel
 placed
@@ -4665,7 +4594,6 @@ yawning
 horny
 betting
 witty
-no|
 london
 strangle
 envelope
@@ -4720,7 +4648,6 @@ graffiti
 entry
 ty
 jaws
-it''
 focused
 shocking
 approve
@@ -4761,7 +4688,6 @@ emotional
 willie's
 aid
 sticking
-do|
 reunion
 yogurt
 trusted
@@ -4790,7 +4716,6 @@ ease
 dee
 salesman
 bumper
-100%
 nobel
 louie
 deck
@@ -4945,7 +4870,6 @@ authorities
 game's
 answering
 buttocks
-w
 exception
 cracked
 stones
@@ -4998,3 +4922,79 @@ boil
 goodman
 repay
 classical
+malk
+elbarto
+buddhist
+chocotastic
+japanimation
+skittlebrau
+adultivity
+embiggen
+successmanship
+speedhole
+foodbag
+hettie
+introubulate
+eltdown
+tomacco
+hitchcock
+bellamy
+redorkulate
+numbskullery
+faxtrola
+smitily
+avoision
+homerhol
+chewtality
+snacktacular
+rageohol
+appling
+posturologists
+debigulator
+jerkass
+megacide
+stabby
+craptacular
+frogurt
+diddly
+hypohemia
+pricetaggery
+safen
+gamblor
+crantastic
+drunkening
+jebus
+treating
+taxpayer
+retrieve
+advantageous
+truffle
+fungus
+gourmet
+prized
+restaurateurs
+abomination
+foghorn
+wattles
+cankles
+excess
+lipo
+kisser
+knockers
+anesthesiologist
+payroll
+waist
+electronics
+complimenting
+insulting
+spoiling
+pictured
+grugling
+moolah
+swelled
+decorated
+mistaken
+businessmen
+ping-pong
+slighted
+tiramisu
